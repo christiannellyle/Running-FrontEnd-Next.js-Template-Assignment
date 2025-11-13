@@ -1,0 +1,21 @@
+## Version
+REACT_APP_VERSION=v3.3.0
+GENERATE_SOURCEMAP=false
+
+## MESSAGES API INFO
+MESSAGES_WEB_API_URL=http://localhost:8000_or_the_remote_URL
+MESSAGES_WEB_API_KEY=place_the_key_from_the_API_here
+
+## Credentials API
+CREDENTIALS_API_URL=http://localhost:8008_or_the_remote_URL
+
+
+## Next Auth
+NEXTAUTH_URL=http://localhost:3000/
+NEXTAUTH_SECRET_KEY=make_up_your_own_key
+
+
+## JWT
+## for 1 day - 86400 = 1* 24 * 60 * 60
+REACT_APP_JWT_TIMEOUT=86400
+REACT_APP_JWT_SECRET=make_up_your_own_key
